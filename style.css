@@ -7,11 +7,9 @@
 border: 1px solid var(--primary) !important;
 color: var(--primary) !important ;
 }
-.nav-item{
-    color: #1C1E53 !important;
+.home{
+    color: #5E3BEE !important;
 }
-
-.nav-link active{
-    color: var(--primary);
-   
+.color{
+    color: #1C1E53 !important;
 }
