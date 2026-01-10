@@ -1,3 +1,11 @@
+*{
+    margin: 0px !important;
+    font-family: roboto;
+}
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
 :root{
     --primary:  #5E3BEE;
     --color:  #1C1E53;
@@ -12,4 +20,17 @@ color: var(--primary) !important ;
 }
 .color{
     color: #1C1E53 !important;
+}
+.herobtn{
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+.hero{
+    background-color: #F5FCFF !important;
+}
+.feature col{
+    width: 23px !important;
+}
+.feature col1{
+    width: 23px;
 }
