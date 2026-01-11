@@ -28,9 +28,18 @@ color: var(--primary) !important ;
 .hero{
     background-color: #F5FCFF !important;
 }
-.feature col{
-    width: 23px !important;
+
+.skill-card {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px;
+    padding: 25px;
+    height: 100%; /* Saare boxes ek barabar honge */
+    transition: 0.3s;
 }
-.feature col1{
-    width: 23px;
+.skill-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.icon-box {
+    width: 60px;
+    margin-bottom: 20px;
 }
